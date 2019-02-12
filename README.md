@@ -6,8 +6,10 @@ Isanka es una empresa familiar (madre e hija), formada desde mayo de 2018. Sus d
 
 ## Objetivos del proyecto
 
+Proponer una alternativa digital para Isanka que vaya de la mano con los objetivos del cliente y las necesidades de los usuarios.
 
-### “Nuevo portal de e-commerce”
+## Implementación
+
 
 Nos han contactado de la Asociación Nacional de Pequeños Comerciantes, una
 asociación que agrupa a pequeñas y medianas empresas que comercializan productos y servicios, y nos piden
@@ -170,11 +172,7 @@ los recursos que tienes.
 
 ## Implementación
 
-Para poder realizar este proyecto tendrás un presupuesto de 300 puntos. Estos
-puntos los podrás utilizar realizando las actividades del siguiente cuadro.
-Antes de empezar a realizar estas actividades tendrás que sustentar con tu coach
-cómo es que distribuirás estos puntos en estas actividades.
-El coach te dará el ok para que puedas empezar.
+Para poder realizar nuestra investigacion contamos con un presupuesto de 290 puntos los cuales implican las siguientes actividades:
 
 |Actividad|Descripción|Puntos|
 |:----|:---|:---:|
@@ -182,15 +180,10 @@ El coach te dará el ok para que puedas empezar.
 |Entrevistas con cliente|Realización de entrevistas con el cliente (dueño del reto) y establecimiento de sus metas y objetivos.|25|
 |Benchmark| Revisión de features de la competencia y referencias análogas. | 20 |
 |Entrevistas con usuarios| Entrevistas en profundidad con al menos 5 usuarios. | 60 |
-|Observación contextual| Observación de al menos 5 usuarios en un contexto real de uso/compra. | 35 |
-|Inventario de contenidos| Inventario de todos los contenidos de un producto. | 15 |
-|Flujo / árbol de contenidos|Documento que estructura contenidos y su navegación|15|
-|Card Sorting| Actividad para entender el modelo mental de los usuarios en términos de organización de los contenidos. | 15 |
-|Testeo de soluciones actuales de la competencia| Sesiones de testing de productos actuales de la competencia para ver qué atributos valoran los usuarios. Al menos 5 usuarios.| 50 |
 |Testeos de prototipos| Sesiones de testing de la solución propuesta (baja, media y alta fidelidad) con al menos 5 usuarios por sesión. | 60 |
 |Sketching y wireframing| Elaboración de prototipos de baja y mediana fidelidad. | 30 |
-|Prototipado de contenido| Prototipado y testeo del contenido del producto. | 30 |
 |Prototipado de alta fidelidad| Elaboración de prototipo en base a las pantallas diseñadas. | 80 |
+|     | TOTAL | 290 |
 
 ## Entrega
 
