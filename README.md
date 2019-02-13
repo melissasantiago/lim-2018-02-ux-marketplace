@@ -34,9 +34,7 @@ De acuerdo a la investigación con nuestra cliente y usuarios , los principales 
 
 En el proceso, de investigación entrevistamos a varios usuarios frecuentes y a usuarios potenciales, teniendo en cuenta sus preferencias, pasatiempos, edad , profesión, motivaciones y experiencias previas comprando online. Además, gracias a las entrevistas y al [Affinity map](https://realtimeboard.com/app/board/o9J_kyTuyRA=/) pudimos definir nuestro user persona.
 
-USER PERSONA
-
-![userpersona](![altafidelidad](https://i.ibb.co/0D7VM9Q/user-persona-imagen.jpg)
+![userpersona](https://i.ibb.co/0D7VM9Q/user-persona-imagen.jpg)
 
 
 
