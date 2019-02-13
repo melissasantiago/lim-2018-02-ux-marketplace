@@ -32,7 +32,12 @@ De acuerdo a la investigación con nuestra cliente y usuarios , los principales 
 
 ## Definición del público objetivo  
 
-En el proceso, de investigación entrevistamos a varios usuarios frecuentes y a usuarios potenciales, teniendo en cuenta sus preferencias, pasatiempos, edad , profesión, motivaciones y experiencias previas comprando online. Además, pusimos en práctica nuestro [Affinity map](https://realtimeboard.com/app/board/o9J_kyTuyRA=/) pudimos definir nuestro user persona.
+En el proceso, de investigación entrevistamos a varios usuarios frecuentes y a usuarios potenciales, teniendo en cuenta sus preferencias, pasatiempos, edad , profesión, motivaciones y experiencias previas comprando online. Además, gracias a las entrevistas y al [Affinity map](https://realtimeboard.com/app/board/o9J_kyTuyRA=/) pudimos definir nuestro user persona.
+
+USER PERSONA
+
+![userpersona](![altafidelidad](https://i.ibb.co/jvHGwmD/Whats-App-Image-2019-01-13-at-3-42-56-PM.jpg)
+
 
 
 
