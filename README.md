@@ -5,8 +5,7 @@ Isanka es una empresa familiar (madre e hija), formada desde mayo de 2018. Sus d
 
 ## Objetivos del proyecto
 
-Proponer una alternativa digital para Isanka que vaya de la mano con los objetivos del cliente y las necesidades de los usuarios.
-
+Proponer una alternativa digital que impacte ,favorablemente al cliente ,de acuerdo a sus objetivos y las necesidades del usuario. Además, se priorizará alternativas de vanguardia y mejoras en el proceso de compra.
 
 ## Implementación
 
@@ -31,12 +30,13 @@ De acuerdo a la investigación con nuestra cliente y usuarios , los principales 
 * Si bien es cierto Isanka maneja un fanpage, no logra exponer la totalidad de sus productos y no hay informacion descriptiva de los productos. Los usuarios lo ven como una dificultad ya que no pueden conocer las características del producto  concluir su decisión de compra
 
 
-## Definición del Público Objetivo
+## Definición del público objetivo  
+
+En el proceso, de investigación entrevistamos a varios usuarios frecuentes y a usuarios potenciales, teniendo en cuenta sus preferencias, pasatiempos, edad , profesión, motivaciones y experiencias previas comprando online. Además, pusimos en práctica nuestro [Affinity map](https://realtimeboard.com/app/board/o9J_kyTuyRA=/) pudimos definir nuestro user persona.
 
 
 
 
-* Definición del público objetivo
     * User persona
     * Customer Journey Map (indicando pain y gain points)
 * Definición de la solución/producto
@@ -60,86 +60,9 @@ agregar los documentos complementarios que sustenten tu proceso:
 * Mapa de sitio
 * Etc.
 
-## Otras consideraciones
-
-### 1) Planeamiento y presupuesto
-
-Cuando realices el planeamiento de cómo enfrentarás el reto deberás sustentarlo
-ante tu cliente y ante un coach. Ellos te darán la aprobación final para seguir
-con las actividades planteadas.
-
-### 2) Definición del producto
-
-Al definir el producto recuerda pensar en:
-
-* Quiénes son los principales usuarios de producto
-* Cuáles son los objetivos del negocio en relación con el producto
-* Cuáles son los objetivos de estos usuarios en relación con el producto
-* Cuál será la propuesta de valor del sitio que vas a crear
-* Cuáles son los contenidos que el usuarios quiere ver, la información que
-  buscarían para convencerse de comprar, confiar en la empresa que lo ofrece,
-  encontrar lo que busca y comprarlo
-* Cómo vas a distribuir y entregar esos contenidos
-* Cómo es el flujo que los usuarios que acaben comprando deberán hacer en la web
-* Cómo crees que el producto les está resolviendo sus problemas
-
-### 3) Prototipo de alta fidelidad
-
-Existen varias herramientas que puedes utilizar para crear tu prototipo,
-nosotros recomendamos Figma, sin embargo, eres libre de utilizar otras
-herramientas como Adobe XD, etc. Si eliges Figma tendrás que usar una
-herramienta adicional como Marvel o Invision. Recuerda que el diseño que
-trabajes debe seguir los fundamentos de visual design, como: contraste,
-alineación, jerarquía, entre otros.
-
-### 4) HTML, CSS y JS
-Utiliza los diseños exportados en Zeplin, Handoffs o Inspects y desarrolla **dos vistas como mínimo** (aparte del login)
-utilizando las tecnologías web que aprendiste en el common core: HTML, CSS y JS.
-Puedes usar los frameworks que quieras. Recuerda que la aplicación tiene que ser
-mobile-friendly. Despliega el código en GitHub Pages o Heroku.
 
 
-## Hacker edition
 
-- En lugar de usar Github para documentar tu proceso de trabajo, documéntalo en
-  su propia web, puedes usar Wix, Instapage, Squarespace, Google Sites o crear tu
-propia web desde 0.
 
-- Desarrolla **todo el flujo de tu propuesta**
-utilizando las tecnologías web que aprendiste en el common core: HTML, CSS y JS.
 
-- Escribe un post en Medium contando tu proceso de investigación
 
-## Evaluación
-
-Recuerda revisar la rúbrica para ver la descripción detallada de cada habilidad
-y cada nivel. A continuación presentamos los niveles esperados de cada habilidad
-que deberías alcanzar al finalizar este proyecto:
-
-### UX Design
-
-|Habilidad|Nivel Esperado|
-|:---|:---:|
-|User centricity| 4 |
-|Planificación| 3 |
-|Entrevistas y testing| 3 |
-|Observación| 2 |
-|Síntesis de resultados| 3 |
-|Flujos de usuario| 3 |
-|Arquitectura de la información| 3 |
-|Prototyping| 3 |
-|Business mindset| 4 |
-|Visual Design| 4 |
-
-### Habilidades blandas
-
-|Habilidad|Nivel Esperado|
-|:---|:---:|
-|Planificación y organización| 4 |
-|Autoaprendizaje| 4 |
-|Solución de problemas| 4 |
-|Dar y recibir feedback| 4 |
-|Adaptabilidad| 4 |
-|Trabajo en equipo| 4 |
-|Comunicación eficaz| 4 |
-|Presentaciones| 4 |
