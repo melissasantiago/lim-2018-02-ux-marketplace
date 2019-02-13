@@ -36,7 +36,7 @@ En el proceso, de investigación entrevistamos a varios usuarios frecuentes y a 
 
 USER PERSONA
 
-![userpersona](![altafidelidad](https://i.ibb.co/jvHGwmD/Whats-App-Image-2019-01-13-at-3-42-56-PM.jpg)
+![userpersona](![altafidelidad](https://i.ibb.co/0D7VM9Q/user-persona-imagen.jpg)
 
 
 
