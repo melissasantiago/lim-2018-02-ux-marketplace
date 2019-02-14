@@ -1,3 +1,15 @@
 .header-pink{
     background: #FFDDD3;
 }
+
+.contenedor {
+   max-height: 600px;
+   overflow: hidden;
+}
+
+.contenedor-imagen1 {
+    max-height: 400px;
+    max-width: 400px;
+    overflow: hidden;
+
+}
