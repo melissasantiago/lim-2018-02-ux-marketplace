@@ -28,7 +28,8 @@ Para poder realizar nuestra investigacion contamos con un presupuesto de 290 pun
 De acuerdo a la investigación con nuestra cliente y usuarios , los principales problemas que atraviesa Isanka son:
 * La falta de un canal propio donde pueda exponer todos los modelos que salen a la venta ¿Por que sería un problema? Porque los usuarios más frecuentes y potenciales no tienen accesos para conocer los productos de manera actualizada.
 * Si bien es cierto Isanka maneja un fanpage, no logra exponer la totalidad de sus productos y no hay informacion descriptiva de los productos. Los usuarios lo ven como una dificultad ya que no pueden conocer las características del producto  concluir su decisión de compra
-
+* Con respecto al pago de los productos , Isanka solicita el 20% de adelanto y la diferencia en contra entrega.
+* La nueva línea de bolsos multiusos necesita ser más expuesto ya que se necesita romper el mito de la bolsa de paja solo para playa. El nuevo concepto es bolso multiuso el cual tiene impacto Ecofriendly.
 
 ## Definición del público objetivo  
 
@@ -47,5 +48,33 @@ a las preguntas en sus redes sociales, cuando existe el primer contacto todo es 
 ![customerjourney](https://i.ibb.co/tP2vPn0/JOURNEY-MAP.jpg)
 
 
-## Definición de la solución/producto
+## Definición de la solución/producto   
+
+Luego de hacer la investigación considerando los objetivos y necesidadesde de nuestro cliente y usuarios. Además de tomar en cuenta la tendencia y haciendo un análisis de marcas referentes y competidores. Se hizo un [Benchmark](https://docs.google.com/spreadsheets/d/1ybKEA_fWdzkunMTgUNJDlRqdQWN-6c5tf6ibWWBTOIU/edit#gid=0)  
+
+Se llegó a las siguientes conclusiones:
+
+1. Carrito de compras: Crear una portal web donde los clientes puedan pagar online el producto escogido y además asegura el pago lo cual es un respaldo al cliente (Isanka)
+
+2. Detallar las caracteristicas de los productos: El usuario tendrá está opción donde podra conocer de manera rápida los detalles especifícos del articulo que seleccione , así como diferentes vista y los colores disponibles.
+
+3. Exponer sus productos de manera ordenada de acuerdo a la nueva colección y por catálogo: Esta opción permite que el usuario pueda navegar y determinar su compra gracias a la exposición ordenada y actualizada de los productos, además se podrá destacar la nueva línea de carteras multiusos en la cual Isanka está enfocada aprovchando el concepto ecofriendly.
+
+4. Creación digital enfocado en app movil de acuerdo a las necesidades de User persona.
+
+### Link a prototipo navegable
+
+[Prototipo Navegable](https://www.figma.com/proto/znTCLbLpv2nbZn42xyAGCb/190210-Mobile-App-Alta-Fidelidad-Pulido?node-id=43%3A353&viewport=229%2C190%2C0.083032&scaling=scale-down)
+
+
+### Explicación de cómo los contenidos y funcionalidades responden a los objetivos del proyecto y necesidades del usuario final
+
+* La aplicación ha sido diseñada principalmente para móvil porque nuestros clientes potenciales y frecuentes usan sus dispositivos de manera frecuente.
+* Se ha creado la opcion de catálogo para mostrar las carteras. Destacando la nueva línea de colección.
+* Al seleccionar cualquier producto el usuario verá de manera inmediata la descripción detallada del prodcuto , asi como precio colores disponibles etc.
+* Se ha creado la opcion de carrito de compra para agregar todos los producto que quiera adquirir.
+* Puede seleccionar el tipo de pago que realizá y con qué tipo de tarjeta.
+* Ademas, existe la opción de reseñas que fue diseñado de acuerdo a las preferencias de los usuarios.
+* En la parte inferior de la pantalla, aparece la sección de sugerencias.
+* También se creó la opción de crear cuenta y comprar como invitado para los que no sea relevante comprar online.
 
