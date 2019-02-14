@@ -34,38 +34,18 @@ De acuerdo a la investigación con nuestra cliente y usuarios , los principales 
 
 En el proceso, de investigación entrevistamos a varios usuarios frecuentes y a usuarios potenciales, teniendo en cuenta sus preferencias, pasatiempos, edad , profesión, motivaciones y experiencias previas comprando online. Además, gracias a las entrevistas y al [Affinity map](https://realtimeboard.com/app/board/o9J_kyTuyRA=/) pudimos definir nuestro user persona.
 
+    * USER PERSONA:
 ![userpersona](https://i.ibb.co/0D7VM9Q/user-persona-imagen.jpg)
 
+    * Customer Journey Map:
+ El Customer Journey Map es el recorrido que realiza el usuario con respecto a la compra de las carteras en Isanka.
+
+ Se puede observar que tiene dos *gain points* ya que la publicidad que hay en Instagram cumple con lo esperado porque llama la atención de los usuarios, el segundo *gain point* es cuando se concluye la entrega del producto ya que satisface todas las espectativas del cliente por la puntualidad y calidad.
+ Sin embargo, hay etapas que son consideradas negativas (pain points) , como "pedido de información" ya que al ver los productos no hay información del producto, no hay respuesta 
+a las preguntas en sus redes sociales, cuando existe el primer contacto todo es via whatsapp , lo cual genera incomodidad así como la cotización y el adelanto para la confirmación del pedido se hace mediante transferencia y envío del voucher por medio de whatsapp.
+
+![customerjourney](https://i.ibb.co/tP2vPn0/JOURNEY-MAP.jpg)
 
 
-
-
-    * User persona
-    * Customer Journey Map (indicando pain y gain points)
-* Definición de la solución/producto
-* Link a prototipo navegable
-* Explicación de cómo los contenidos y funcionalidades responden a los objetivos
-  del proyecto.
-* Explicación de cómo los contenidos y funcionalidades resuelven cada uno de las
-  necesidades del usuario final.
-* Link de Zeplin, InVision inspects o Marvel Hand-offs para compartir tus
-  diseños con desarrolladores.
-
-Un video en [Loom](https://www.useloom.com/) de máximo 10 minutos explicando tu documento.
-* Estos 10 minutos tienes que utilizarlos para explicar los puntos indicados en
-  el `README.md` y para hacer un demo de la solución.
-
-En las otras carpetas del repositorio o en las carpetas de Google Drive podrás
-agregar los documentos complementarios que sustenten tu proceso:
-
-* Fotos, videos, guías de las actividades que realizaste
-* Flujo de usuario
-* Mapa de sitio
-* Etc.
-
-
-
-
-
-
+## Definición de la solución/producto
 
