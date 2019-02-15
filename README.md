@@ -1,7 +1,5 @@
 # Isanka
-<p align ="center">
-![Isanka](https://i.ibb.co/BPhStdK/logo.jpg)
-</p>
+<p align ="center">![Isanka](https://i.ibb.co/BPhStdK/logo.jpg)</p>
 
 Isanka es una empresa familiar (madre e hija), formada desde mayo de 2018. Sus diseños son únicos y los detalles que tiene cada bolso están hechos con la idea de abrazar la cultura peruana. Los accesorios de colores, textiles, cuero, telas y tejidos son todos 100% peruanos. Además, demostrando que es una empresa ecofriendly, Isanka rompe el mito que las bolsas de paja son solo para playa sino que quiere ir más allá entonces ha creado la línea de bolsos multiusos.
 
@@ -38,9 +36,8 @@ De acuerdo a la investigación con nuestra cliente y usuarios , los principales 
 En el proceso, de investigación entrevistamos a varios usuarios frecuentes y a usuarios potenciales, teniendo en cuenta sus preferencias, pasatiempos, edad , profesión, motivaciones y experiencias previas comprando online. Además, gracias a las entrevistas y al [Affinity map](https://realtimeboard.com/app/board/o9J_kyTuyRA=/) pudimos definir nuestro user persona.
 
     * USER PERSONA:
-    <p align ="center">
 ![userpersona](https://i.ibb.co/0D7VM9Q/user-persona-imagen.jpg)
-    </p>
+
     * Customer Journey Map:
  El Customer Journey Map es el recorrido que realiza el usuario con respecto a la compra de las carteras en Isanka.
 
@@ -74,7 +71,7 @@ Se llegó a las siguientes conclusiones:
 
 ## Explicación de cómo los contenidos y funcionalidades responden a los objetivos del proyecto y necesidades del usuario final
 
-* La aplicación ha sido diseñada principalmente para móvil porque nuestros clientes potenciales y frecuentes usan sus dispositivos de manera frecuente.
+* La aplicación ha sido diseñada principalmente para móvil porque nuestros clientes potenciales y frecuentes usan estos dispositivos de manera frecuente.
 * Se ha creado la opcion de catálogo para mostrar las carteras. Destacando la nueva línea de colección.
 * Al seleccionar cualquier producto el usuario verá de manera inmediata la descripción detallada del prodcuto , asi como precio colores disponibles etc.
 * Se ha creado la opcion de carrito de compra para agregar todos los producto que quiera adquirir.
