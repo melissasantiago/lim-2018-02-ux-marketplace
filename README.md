@@ -1,7 +1,9 @@
 # Isanka
+<p align ="center">
+![Isanka](https://i.ibb.co/BPhStdK/logo.jpg)
+</p>
 
 Isanka es una empresa familiar (madre e hija), formada desde mayo de 2018. Sus diseños son únicos y los detalles que tiene cada bolso están hechos con la idea de abrazar la cultura peruana. Los accesorios de colores, textiles, cuero, telas y tejidos son todos 100% peruanos. Además, demostrando que es una empresa ecofriendly, Isanka rompe el mito que las bolsas de paja son solo para playa sino que quiere ir más allá entonces ha creado la línea de bolsos multiusos.
-
 
 ## Objetivos del proyecto
 
@@ -36,21 +38,22 @@ De acuerdo a la investigación con nuestra cliente y usuarios , los principales 
 En el proceso, de investigación entrevistamos a varios usuarios frecuentes y a usuarios potenciales, teniendo en cuenta sus preferencias, pasatiempos, edad , profesión, motivaciones y experiencias previas comprando online. Además, gracias a las entrevistas y al [Affinity map](https://realtimeboard.com/app/board/o9J_kyTuyRA=/) pudimos definir nuestro user persona.
 
     * USER PERSONA:
+    <p align ="center">
 ![userpersona](https://i.ibb.co/0D7VM9Q/user-persona-imagen.jpg)
-
+    </p>
     * Customer Journey Map:
  El Customer Journey Map es el recorrido que realiza el usuario con respecto a la compra de las carteras en Isanka.
 
  Se puede observar que tiene dos *gain points* ya que la publicidad que hay en Instagram cumple con lo esperado porque llama la atención de los usuarios, el segundo *gain point* es cuando se concluye la entrega del producto ya que satisface todas las espectativas del cliente por la puntualidad y calidad.
- Sin embargo, hay etapas que son consideradas negativas (pain points) , como "pedido de información" ya que al ver los productos no hay información del producto, no hay respuesta 
+ Sin embargo, hay etapas que son consideradas negativas (pain points) , como "pedido de información" ya que al ver los productos no hay información del producto, no hay respuesta
 a las preguntas en sus redes sociales, cuando existe el primer contacto todo es via whatsapp , lo cual genera incomodidad así como la cotización y el adelanto para la confirmación del pedido se hace mediante transferencia y envío del voucher por medio de whatsapp.
-
+  <p align ="center">
 ![customerjourney](https://i.ibb.co/tP2vPn0/JOURNEY-MAP.jpg)
-
+  </p>
 
 ## Definición de la solución/producto   
 
-Luego de hacer la investigación considerando los objetivos y necesidadesde de nuestro cliente y usuarios. Además de tomar en cuenta la tendencia y haciendo un análisis de marcas referentes y competidores. Se hizo un [Benchmark](https://docs.google.com/spreadsheets/d/1ybKEA_fWdzkunMTgUNJDlRqdQWN-6c5tf6ibWWBTOIU/edit#gid=0)  
+Luego de hacer la investigación considerando los objetivos y necesidadesde de nuestro cliente y usuarios. Además de tomar en cuenta la tendencia y haciendo un análisis de marcas referentes y competidores. Se hizo un Benchmark : ![Benchmark](https://i.ibb.co/3N2jwHh/BENCH.jpg)  
 
 Se llegó a las siguientes conclusiones:
 
@@ -58,16 +61,18 @@ Se llegó a las siguientes conclusiones:
 
 2. Detallar las caracteristicas de los productos: El usuario tendrá está opción donde podra conocer de manera rápida los detalles especifícos del articulo que seleccione , así como diferentes vista y los colores disponibles.
 
-3. Exponer sus productos de manera ordenada de acuerdo a la nueva colección y por catálogo: Esta opción permite que el usuario pueda navegar y determinar su compra gracias a la exposición ordenada y actualizada de los productos, además se podrá destacar la nueva línea de carteras multiusos en la cual Isanka está enfocada aprovchando el concepto ecofriendly.
+3. Exponer sus productos de manera ordenada de acuerdo a la nueva colección y por catálogo: Esta opción permite que el usuario pueda navegar y determinar su compra gracias a la exposición ordenada y actualizada de los productos, además se podrá destacar la nueva línea de carteras multiusos en la cual Isanka está enfocada aprovechando el concepto ecofriendly.
 
-4. Creación digital enfocado en app movil de acuerdo a las necesidades de User persona.
+4. Creación digital enfocado en app móvil de acuerdo a las necesidades de User persona.
 
-### Link a prototipo navegable
+5. Se ha optado por dar una opción donde el usuario pueda escoger si el envío se hará como una regalo ,esto es tomado en cuenta gracias al análisis del benchmark ya que varias empresas reconocidas también han
+
+## Link a prototipo navegable
 
 [Prototipo Navegable](https://www.figma.com/proto/znTCLbLpv2nbZn42xyAGCb/190210-Mobile-App-Alta-Fidelidad-Pulido?node-id=43%3A353&viewport=229%2C190%2C0.083032&scaling=scale-down)
 
 
-### Explicación de cómo los contenidos y funcionalidades responden a los objetivos del proyecto y necesidades del usuario final
+## Explicación de cómo los contenidos y funcionalidades responden a los objetivos del proyecto y necesidades del usuario final
 
 * La aplicación ha sido diseñada principalmente para móvil porque nuestros clientes potenciales y frecuentes usan sus dispositivos de manera frecuente.
 * Se ha creado la opcion de catálogo para mostrar las carteras. Destacando la nueva línea de colección.
@@ -77,4 +82,3 @@ Se llegó a las siguientes conclusiones:
 * Ademas, existe la opción de reseñas que fue diseñado de acuerdo a las preferencias de los usuarios.
 * En la parte inferior de la pantalla, aparece la sección de sugerencias.
 * También se creó la opción de crear cuenta y comprar como invitado para los que no sea relevante comprar online.
-
