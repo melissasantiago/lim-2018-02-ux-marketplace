@@ -62,10 +62,6 @@ Se llegó a las siguientes conclusiones:
 
 5. Se ha optado por dar una opción donde el usuario pueda escoger si el envío se hará como una regalo ,esto es tomado en cuenta gracias al análisis del benchmark ya que varias empresas reconocidas también han
 
-## Link a prototipo navegable
-
-[Prototipo Navegable](https://www.figma.com/proto/znTCLbLpv2nbZn42xyAGCb/190210-Mobile-App-Alta-Fidelidad-Pulido?node-id=43%3A353&viewport=229%2C190%2C0.083032&scaling=scale-down)
-
 
 ## Explicación de cómo los contenidos y funcionalidades responden a los objetivos del proyecto y necesidades del usuario final
 
@@ -73,7 +69,28 @@ Se llegó a las siguientes conclusiones:
 * Se ha creado la opcion de catálogo para mostrar las carteras. Destacando la nueva línea de colección.
 * Al seleccionar cualquier producto el usuario verá de manera inmediata la descripción detallada del prodcuto , asi como precio colores disponibles etc.
 * Se ha creado la opcion de carrito de compra para agregar todos los producto que quiera adquirir.
-* Puede seleccionar el tipo de pago que realizá y con qué tipo de tarjeta.
+* Puede seleccionar el tipo de pago que realizará y con qué tipo de tarjeta lo hará.
 * Ademas, existe la opción de reseñas que fue diseñado de acuerdo a las preferencias de los usuarios.
 * En la parte inferior de la pantalla, aparece la sección de sugerencias.
 * También se creó la opción de crear cuenta y comprar como invitado para los que no sea relevante comprar online.
+
+## Análisis del testeo del prototipo de baja
+
+1. La primera tarea a evaluar fue *ir a la tienda y compra una cartera*, los usuarios scrolleaban la página y se dirigian al botón ver tienda , seleccionaban el artículo, añadían al carrito  y se atascaban en comprar el producto, no reconocían el botón "seguir como invitado".
+
+2. La segunda tarea a evaluar fue *ir a la colección y revisa los productos*, con esta tarea no hubo ningun problema los usuarios siguieron el flujo y dieron algunos tips de como mejorar el uso de palabras.
+
+3. La tercera tarea fue *crear una cuenta*, esta tarea fue la más clara sin embargo pidieron que halla un seccion clara donde indique crear cuenta o iniciar sesión.
+
+## Conclusiones del testeo del prototipo de alta Fidelidad
+
+Se mejoraron todas las observaciones del prototipo de baja fidelidad.
+
+Se hizo el cambio donde se mostraba claramente la opcion "crear cuenta", si el usuario lo ve prefiere porque se le da la facilidad de poder comprar sin tener que crearse una cuenta ya muchos usuarios indicaban que de esa manera era más rápida su compra.
+
+Otra cambio importante que fue clave es el uso correcto de las palabras para los CTA, esto cambio fue sustancial para que la navegación de la aplicación sea más entendible.
+
+
+## Link a prototipo navegable
+
+[Prototipo Navegable](https://www.figma.com/proto/znTCLbLpv2nbZn42xyAGCb/190210-Mobile-App-Alta-Fidelidad-Pulido?node-id=43%3A353&viewport=229%2C190%2C0.083032&scaling=scale-down)
