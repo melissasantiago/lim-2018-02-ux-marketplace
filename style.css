@@ -14,9 +14,22 @@
 
 }
 
-.contenedor-productos {
-    
+.contenedor-imagen2 {
+    max-height: 200px;
+    overflow: hidden;
+
 }
+
+.contenedor-imagen3 {
+    max-height: 400px;
+    overflow: hidden;
+}
+
+.paginas {
+    border-style: none;
+    border: 0;
+}
+
 
 /* Rectangle 2 */
 .rectangle {
