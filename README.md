@@ -44,9 +44,7 @@ En el proceso, de investigación entrevistamos a varios usuarios frecuentes y a 
  Se puede observar que tiene dos *gain points* ya que la publicidad que hay en Instagram cumple con lo esperado porque llama la atención de los usuarios, el segundo *gain point* es cuando se concluye la entrega del producto ya que satisface todas las espectativas del cliente por la puntualidad y calidad.
  Sin embargo, hay etapas que son consideradas negativas (pain points) , como "pedido de información" ya que al ver los productos no hay información del producto, no hay respuesta
 a las preguntas en sus redes sociales, cuando existe el primer contacto todo es via whatsapp , lo cual genera incomodidad así como la cotización y el adelanto para la confirmación del pedido se hace mediante transferencia y envío del voucher por medio de whatsapp.
-  <p align ="center">
 ![customerjourney](https://i.ibb.co/tP2vPn0/JOURNEY-MAP.jpg)
-  </p>
 
 ## Definición de la solución/producto   
 
