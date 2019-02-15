@@ -11,19 +11,19 @@
 <body>
     <div class="header-pink">
     <!-- Color de Barra de navegación-->
-    <nav class= "navbar navbar-expand-md navbar-light fixed-top header-pink">
+    <nav class= "navbar navbar-expand-md fixed-top header-pink navbar-light">
       
-        <button class="navbar-toggler" data-toggle="collapse" data-target="#collapse_target">
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#collapse_target"> <!--toggler - señalador-->
             <span class="navbar-toggle-icon">
                 <img src="img/icon/Group.png" alt=""></span>
         </button>
-        <a class = "navbar-brand" href="#"><img src="img/logo/IsankaName.png" alt="Logo Isanka"></a>
+        <a id="home" class = "navbar-brand" href="#"><img src="img/logo/IsankaName.png" alt="Logo Isanka"></a>
             
         <!--Barra de navegación-->
         <!-- <a class="navbar-brand "href="#"><img src="img/logo/Isanka.png" alt="Logo Isanka"></a> -->
         
         <div class="collapse navbar-collapse" id="collapse_target">
-        <ul class="nav navbar-nav navbar-right">
+        <ul class="nav navbar-nav navbar-right container  justify-content-between "> <!--Justificar el contenido dentro-->
             <li class="nav-item">
                 <a class= "nav-link" href="#">NUEVA COLECCIÓN</a>
             </li>
@@ -31,7 +31,7 @@
                     <a class= "nav-link" href="#">NIÑAS</a>
             </li>
             <li class="nav-item">
-                    <a class= "nav-link" href="#">TIENDA</a>
+                    <a id="tienda" class= "nav-link" href="#">TIENDA</a>
             </li>
             <li class="nav-item">
                     <a class= "nav-link" href="#">EVENTOS</a>
@@ -47,99 +47,654 @@
     </nav>
     </div>
 
-    <!--Carrusel-->
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-        <!--Indicadores de movimiento activo-->
-            <ol class="carousel-indicators">
-              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-            </ol>
 
-            <!--Añadiendo Slide, con el style esta modificadio a un tamaño-->
+    <!-- --------------PRIMERA PANTALLA ---------------- -->
+    <div id="first-screen">
+        <!--Carrusel-->
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <!--Indicadores de movimiento activo-->
+                    <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
 
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                    <div class="contenedor">
-                        <div class="col-xs-2">
-                            <img src="img/playa006.jpg" class="img-fluid"  alt="Imagen verano chic">
-                            <div class="carousel-caption">
-                                    <h1>VERANO CHIC</h1>
-                                     <p>NUEVA COLECCION VERANO 2019</p>
-                                     <button class="btn btn-info btn-lg">COMPRAR AHORA</button>
-                             </div>
+                    <!--Añadiendo Slide, con el style esta modificadio a un tamaño-->
+
+                    <div class="carousel-inner">
+                    <div class="carousel-item active">
+                            <div class="contenedor">
+                                <div class="rectangle col-xs-2"></div>
+                                <div class="col-xs-2">
+                                    <img src="img/playa006.jpg" class="img-fluid"  alt="Imagen verano chic">
+                                    <div class="carousel-caption">
+                                            <h1>VERANO CHIC</h1>
+                                            <p>NUEVA COLECCION VERANO 2019</p>
+                                            <button class="btn btn-info btn-lg">COMPRAR AHORA</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    <div class="carousel-item">
+                            <div class="contenedor">
+                                <div class="rectangle col-xs-2"></div>
+                                <img class="d-block w-100" src="img/playa007.jpg" alt="Second slide">
+                                <div class="carousel-caption">
+                                        <h1>CARTERAS HECHAS A MANO</h1>
+                                        <p>Mira todos los modelos disponibles</p>
+                                        <button class="btn btn-info btn-lg">COMPRAR AHORA</button>
+                                </div>
+                            </div>
                         </div>
                     </div>
+
+                    <!--Controles de avanzar y retroceder-->
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                    </a>
                 </div>
-              <div class="carousel-item">
-                    <div class="contenedor">
-                        <img class="d-block w-100" src="img/playa007.jpg" alt="Second slide">
-                        <div class="carousel-caption">
-                                <h1>CARTERAS HECHAS A MANO</h1>
-                                <p>Mira todos los modelos disponibles</p>
-                                <button class="btn btn-info btn-lg">COMPRAR AHORA</button>
+
+        <!--Imagenes Cuadradas Cuerpo-->
+        <section class="container">
+            <div class="row">
+                <div class="p-2 col-lg-6 col-md-6 col-sm-6 col-xs-12 ">
+                        <img class="card-img" src="img/img00.jpg" alt="Novedades" >
+                        <div class=" p-5 d-flex card-img-overlay justify-content-end flex-column">
+                        <button class=" btn btn-info btn-lg b">VER TIENDA</button>
                         </div>
-                    </div>
-              </div>
-              <div class="carousel-item">
-                    <div class="contenedor"><img class="d-block w-100" src="img/playa004.jpg" alt="Second slide"></div>
+                </div>
+                
+                <div class="p-2 col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                        <img class="card-img" src="img/novedades.jpg" alt="Novedades" >
+                        <div class=" p-5 d-flex card-img-overlay justify-content-end flex-column">
+                        <button class=" btn btn-info btn-lg b">NOVEDADES</button>
+                        </div>
+                </div>
+
+                <div class="p-2 col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                        <img class="card-img" src="img/kids.jpg" alt="Novedades" >
+                        <div class=" p-5 d-flex card-img-overlay justify-content-end flex-column">
+                        <button class=" btn btn-info btn-lg b">NIÑAS</button>
+                        </div>
+                </div>
+
+                <div class="p-2 col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                        <img class="card-img" src="img/Playa002.jpg" alt="Novedades" >
+                        <div class=" p-5 d-flex card-img-overlay justify-content-end flex-column">
+                        <button class=" btn btn-info btn-lg ">TOTE BAGS</button>
+                        </div>
                 </div>
             </div>
+        </section>
 
-            <!--Controles de avanzar y retroceder-->
-            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
-            </a>
+
+
+        <div class="row">
+                <div class="p-2 contenedor-imagen3 col-sm-12 col-xs-12 ">
+                        <img class="card-img rec" src="img/playa006.jpg" alt="Nosotros" >
+                        <div class=" p-5 d-flex card-img-overlay justify-content-end flex-column">
+                        <h1 class="text-center text-light">PROCEDIMIENTO DE COMPRA</h1>
+                        <p class="text-center text-light"> Información de envío e Historia</p>
+                        </div>
+                </div>  
+        </div>    
+ 
+        <section class="container">
+                <div class="row">
+                    <div class="p-2 col-lg-6 col-md-6 col-sm-6 col-xs-12 ">
+                            <img class="card-img" src="img/nosotros.jpg" alt="Nosotros" >
+                            <div class=" p-5 d-flex card-img-overlay justify-content-end flex-column">
+                            <button class=" btn btn-info btn-lg b">Nosotros</button>
+                            </div>
+                    </div>
+                    
+                    <div class="p-2 col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                            <img class="card-img" src="img/ENVIOS.jpeg" alt="Novedades" >
+                            <div class=" p-5 d-flex card-img-overlay justify-content-end flex-column">
+                            <button class=" btn btn-info btn-lg b">Envios</button>
+                            </div>
+                    </div>
     
-   <!--Imagenes Cuadradas Cuerpo-->
-   <section class="container">
-       <div class="row">
-        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-        
-            <img src="img/img00.jpg" alt="Novedades" class="img-fluid">
-
-        </div>
-        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-
-            <img src="img/novedades.jpg" alt="Ver tienda" class="img-fluid">
-        
-        </div>
-
-        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-        
-                <img src="img/kids.jpg" alt="Novedades" class="img-fluid">
+                    <div class="p-2 col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                            <img class="card-img" src="img/formas de pago.jpg" alt="Novedades" >
+                            <div class=" p-5 d-flex card-img-overlay justify-content-end flex-column">
+                            <button class=" btn btn-info btn-lg b">Formas de Pago</button>
+                            </div>
+                    </div>
     
+                    <div class="p-2 col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                            <img class="card-img" src="img/contacto.jpeg" alt="Novedades" >
+                            <div class=" p-5 d-flex card-img-overlay justify-content-end flex-column">
+                            <button class=" btn btn-info btn-lg ">Contacto</button>
+                            </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2>Productos <b>Destacados</b></h2>
+                        <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="0">
+                        <!-- Carousel indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#myCarousel" data-slide-to="1"></li>
+                            <li data-target="#myCarousel" data-slide-to="2"></li>
+                        </ol>   
+                        <!-- Wrapper for carousel items -->
+                        <div class="carousel-inner my-5">
+                            <div class="item carousel-item active">
+                                <div class="row">
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="img/bags/bags1A.jpg" class="img-responsive img-fluid" alt="">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Romina Bag</h4>
+                                                <p class="item-price"><span>$70.00</span></p>
+                                                <a href="#" class="btn btn-primary">Comprar ahora</a>
+                                            </div>						
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="img/bags/bags1B.jpg" class="img-responsive img-fluid" alt="">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Dark Baby</h4>
+                                                <p class="item-price"><span>$40.00</span></p>
+                                                <a href="#" class="btn btn-primary">Comprar ahora</a>
+                                            </div>						
+                                        </div>
+                                    </div>		
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="img/bags/bags1C.jpg" class="img-responsive img-fluid" alt="">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Boho chic</h4>
+                                                <p class="item-price"><span>$49.00</span></p>                                                    
+                                                <a href="#" class="btn btn-primary">Comprar ahora</a>
+                                            </div>						
+                                        </div>
+                                    </div>								
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="img/bags/bags1D.jpg" class="img-responsive img-fluid" alt="">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Tinsuyo Chic</h4>
+                                                <p class="item-price"> <span>$50.00</span></p>                                                   
+                                                <a href="#" class="btn btn-primary">Comprar ahora</a>
+                                            </div>						
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item carousel-item">
+                                <div class="row">
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="img/bags/bags1E.jpg" class="img-responsive img-fluid" alt="">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Love Station</h4>
+                                                <p class="item-price"> <span>$69.00</span></p>                                                    
+                                                <a href="#" class="btn btn-primary">Comprar Ahora</a>
+                                            </div>						
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="img/008.jpg" class="img-responsive img-fluid" alt="">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Isla Bonita</h4>
+                                                <p class="item-price"><span>$89.00</span></p>                                                   
+                                                <a href="#" class="btn btn-primary">Comprar Ahora</a>
+                                            </div>						
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="img/007.jpg" class="img-responsive img-fluid" alt="">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Skater girl</h4>
+                                                <p class="item-price"><span>$99.00</span></p>                                                    
+                                                <a href="#" class="btn btn-primary">Comprar Ahora</a>
+                                            </div>						
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="img/005.jpg" class="img-responsive img-fluid" alt="">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Galaxy Love</h4>
+                                                <p class="item-price"> <span>$59.00</span></p>                                                    
+                                                <a href="#" class="btn btn-primary">Comprar Ahora</a>
+                                            </div>						
+                                        </div>
+                                    </div>						
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Carousel controls -->
+                        <a class="carousel-control left carousel-control-prev" href="#myCarousel" data-slide="prev">
+                            <i class="fa fa-angle-left"></i>
+                        </a>
+                        <a class="carousel-control right carousel-control-next" href="#myCarousel" data-slide="next">
+                            <i class="fa fa-angle-right"></i>
+                        </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+
+    <!-- --------------SEGUNDA PANTALLA ---------------- -->
+    <div id="second-screen">
+
+
+        <div class="row ">
+                <div class="p-2 contenedor-imagen2 col-sm-12 col-xs-12 ">
+                        <img class="card-img rec" src="img/catalogo.jpg" alt="Nosotros" >
+                        <div class=" p-5 d-flex card-img-overlay justify-content-end flex-column">
+                        <h1 class="text-center text-light font-weight-bold">VERANO CHIC</h1>
+                        </div>
+                </div>  
         </div>
 
-        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+    <div class="container">
+        <ul class="nav">
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Ordenar por</a>
+                  <a class="dropdown-item" href="#"><img src="img/icon/shape (1).png" alt=""> </a>
+                  <a class="dropdown-item" href="#"><img src="img/icon/shape.png" alt=""> </a>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Precio (de mayor a menor)</a>
+                    <a class="dropdown-item" href="#">Precio (de menor a mayor</a>
+                    <a class="dropdown-item" href="#">los mas vendidos</a>
+                    <a class="dropdown-item" href="#">Novedades</a>
+
+                  </div>
+                </li>
+        </ul>
+
+        <div class="p-5 catalogo">
+            <div class="row">
+                <div class="col-sm-3">
+                    <div class="thumb-wrapper">
+                        <div class="img-box">
+                                <img src="img/bags/bags1A.jpg" class="img-responsive img-fluid" alt="">
+                            </div>
+                            <div class="thumb-content">
+                                <h4>Romina Bag</h4>
+                                <p class="item-price"><span>$70.00</span></p>
+                                <a href="#" class="btn btn-primary">Comprar ahora</a>
+                        </div>							
+                    </div>
+                </div>
+        	
+
+
+                <div class="col-sm-3">
+                    <div class="thumb-wrapper">
+                        <div class="img-box">
+                                <img src="img/bags/bags1B.jpg" class="img-responsive img-fluid" alt="">
+                        </div>
+                        <div class="thumb-content">
+                                <h4>Dark Baby</h4>
+                                <p class="item-price"><span>$40.00</span></p>
+                                <a href="#" class="btn btn-primary">Comprar ahora</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-3">
+                    <div class="thumb-wrapper">
+                        <div class="img-box">
+                                <img src="img/bags/bags1C.jpg" class="img-responsive img-fluid" alt="">
+                            </div>
+                            <div class="thumb-content">
+                                <h4>Boho chic</h4>
+                                <p class="item-price"><span>$49.00</span></p>                                                    
+                                <a href="#" class="btn btn-primary">Comprar ahora</a>
+                        </div>					
+                    </div>
+                </div>		
+
+                <div class="col-sm-3">
+                    <div class="thumb-wrapper">
+                        <div class="img-box">
+                                <img src="img/bags/bags1D.jpg" class="img-responsive img-fluid" alt="">
+                            </div>
+                            <div class="thumb-content">
+                                <h4>Tinsuyo Chic</h4>
+                                <p class="item-price"> <span>$50.00</span></p>                                                   
+                                <a href="#" class="btn btn-primary">Comprar ahora</a>
+                        </div>						
+                    </div>
+                </div>		
+
+                <div class="col-sm-3">
+                    <div class="thumb-wrapper">
+                        <div class="img-box">
+                                <img src="img/bags/bags1E.jpg" class="img-responsive img-fluid" alt="">
+                            </div>
+                            <div class="thumb-content">
+                                <h4>Love Station</h4>
+                                <p class="item-price"> <span>$69.00</span></p>                                                    
+                                <a href="#" class="btn btn-primary">Comprar Ahora</a>
+                        </div>					
+                    </div>
+                </div>		
+
+                <div class="col-sm-3">
+                    <div class="thumb-wrapper">
+                        <div class="img-box">
+                                <img src="img/008.jpg" class="img-responsive img-fluid" alt="">
+                            </div>
+                            <div class="thumb-content">
+                                <h4>Isla Bonita</h4>
+                                <p class="item-price"><span>$89.00</span></p>                                                   
+                                <a href="#" class="btn btn-primary">Comprar Ahora</a>
+                        </div>					
+                    </div>
+                </div>		
+
+                <div class="col-sm-3">
+                    <div class="thumb-wrapper">
+                        <div class="img-box">
+                                <img src="img/007.jpg" class="img-responsive img-fluid" alt="">
+                            </div>
+                            <div class="thumb-content">
+                                <h4>Skater girl</h4>
+                                <p class="item-price"><span>$99.00</span></p>                                                    
+                                <a href="#" class="btn btn-primary">Comprar Ahora</a>
+                        </div>				
+                    </div>
+                </div>		
+
+                <div class="col-sm-3">
+                    <div class="thumb-wrapper">
+                        <div class="img-box">
+                                <img src="img/005.jpg" class="img-responsive img-fluid" alt="">
+                            </div>
+                            <div class="thumb-content">
+                                <h4>Galaxy Love</h4>
+                                <p class="item-price"> <span>$59.00</span></p>                                                    
+                                <a href="#" class="btn btn-primary">Comprar Ahora</a>
+                        </div>					
+                    </div>
+                </div>		
+                <div class="col-sm-3">
+                        <div class="thumb-wrapper">
+                            <div class="img-box">
+                                    <img src="img/bags/bags1A.jpg" class="img-responsive img-fluid" alt="">
+                                </div>
+                                <div class="thumb-content">
+                                    <h4>Romina Bag</h4>
+                                    <p class="item-price"><span>$70.00</span></p>
+                                    <a href="#" class="btn btn-primary">Comprar ahora</a>
+                            </div>							
+                        </div>
+                    </div>
+                
     
-                <img src="img/Playa002.jpg" alt="Ver tienda" class="img-fluid">
+    
+                    <div class="col-sm-3">
+                        <div class="thumb-wrapper">
+                            <div class="img-box">
+                                    <img src="img/bags/bags1B.jpg" class="img-responsive img-fluid" alt="">
+                            </div>
+                            <div class="thumb-content">
+                                    <h4>Dark Baby</h4>
+                                    <p class="item-price"><span>$40.00</span></p>
+                                    <a href="#" class="btn btn-primary">Comprar ahora</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-sm-3">
+                        <div class="thumb-wrapper">
+                            <div class="img-box">
+                                    <img src="img/bags/bags1C.jpg" class="img-responsive img-fluid" alt="">
+                                </div>
+                                <div class="thumb-content">
+                                    <h4>Boho chic</h4>
+                                    <p class="item-price"><span>$49.00</span></p>                                                    
+                                    <a href="#" class="btn btn-primary">Comprar ahora</a>
+                            </div>					
+                        </div>
+                    </div>		
+    
+                    <div class="col-sm-3">
+                        <div class="thumb-wrapper">
+                            <div class="img-box">
+                                    <img src="img/bags/bags1D.jpg" class="img-responsive img-fluid" alt="">
+                                </div>
+                                <div class="thumb-content">
+                                    <h4>Tinsuyo Chic</h4>
+                                    <p class="item-price"> <span>$50.00</span></p>                                                   
+                                    <a href="#" class="btn btn-primary">Comprar ahora</a>
+                            </div>						
+                        </div>
+                    </div>		
+    
+                    <div class="col-sm-3">
+                        <div class="thumb-wrapper">
+                            <div class="img-box">
+                                    <img src="img/bags/bags1E.jpg" class="img-responsive img-fluid" alt="">
+                                </div>
+                                <div class="thumb-content">
+                                    <h4>Love Station</h4>
+                                    <p class="item-price"> <span>$69.00</span></p>                                                    
+                                    <a href="#" class="btn btn-primary">Comprar Ahora</a>
+                            </div>					
+                        </div>
+                    </div>		
+    
+                    <div class="col-sm-3">
+                        <div class="thumb-wrapper">
+                            <div class="img-box">
+                                    <img src="img/008.jpg" class="img-responsive img-fluid" alt="">
+                                </div>
+                                <div class="thumb-content">
+                                    <h4>Isla Bonita</h4>
+                                    <p class="item-price"><span>$89.00</span></p>                                                   
+                                    <a href="#" class="btn btn-primary">Comprar Ahora</a>
+                            </div>					
+                        </div>
+                    </div>		
+    
+                    <div class="col-sm-3">
+                        <div class="thumb-wrapper">
+                            <div class="img-box">
+                                    <img src="img/007.jpg" class="img-responsive img-fluid" alt="">
+                                </div>
+                                <div class="thumb-content">
+                                    <h4>Skater girl</h4>
+                                    <p class="item-price"><span>$99.00</span></p>                                                    
+                                    <a href="#" class="btn btn-primary">Comprar Ahora</a>
+                            </div>				
+                        </div>
+                    </div>		
+    
+                    <div class="col-sm-3">
+                        <div class="thumb-wrapper">
+                            <div class="img-box">
+                                    <img src="img/005.jpg" class="img-responsive img-fluid" alt="">
+                                </div>
+                                <div class="thumb-content">
+                                    <h4>Galaxy Love</h4>
+                                    <p class="item-price"> <span>$59.00</span></p>                                                    
+                                    <a href="#" class="btn btn-primary">Comprar Ahora</a>
+                            </div>					
+                        </div>
+                    </div>		
+
+                       <div class="col-sm-3">
+                    <div class="thumb-wrapper">
+                        <div class="img-box">
+                                <img src="img/bags/bags1A.jpg" class="img-responsive img-fluid" alt="">
+                            </div>
+                            <div class="thumb-content">
+                                <h4>Romina Bag</h4>
+                                <p class="item-price"><span>$70.00</span></p>
+                                <a href="#" class="btn btn-primary">Comprar ahora</a>
+                        </div>							
+                    </div>
+                </div>
+        	
+
+
+                <div class="col-sm-3">
+                    <div class="thumb-wrapper">
+                        <div class="img-box">
+                                <img src="img/bags/bags1B.jpg" class="img-responsive img-fluid" alt="">
+                        </div>
+                        <div class="thumb-content">
+                                <h4>Dark Baby</h4>
+                                <p class="item-price"><span>$40.00</span></p>
+                                <a href="#" class="btn btn-primary">Comprar ahora</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-3">
+                    <div class="thumb-wrapper">
+                        <div class="img-box">
+                                <img src="img/bags/bags1C.jpg" class="img-responsive img-fluid" alt="">
+                            </div>
+                            <div class="thumb-content">
+                                <h4>Boho chic</h4>
+                                <p class="item-price"><span>$49.00</span></p>                                                    
+                                <a href="#" class="btn btn-primary">Comprar ahora</a>
+                        </div>					
+                    </div>
+                </div>		
+
+                <div class="col-sm-3">
+                    <div class="thumb-wrapper">
+                        <div class="img-box">
+                                <img src="img/bags/bags1D.jpg" class="img-responsive img-fluid" alt="">
+                            </div>
+                            <div class="thumb-content">
+                                <h4>Tinsuyo Chic</h4>
+                                <p class="item-price"> <span>$50.00</span></p>                                                   
+                                <a href="#" class="btn btn-primary">Comprar ahora</a>
+                        </div>						
+                    </div>
+                </div>		
+
+                <div class="col-sm-3">
+                    <div class="thumb-wrapper">
+                        <div class="img-box">
+                                <img src="img/bags/bags1E.jpg" class="img-responsive img-fluid" alt="">
+                            </div>
+                            <div class="thumb-content">
+                                <h4>Love Station</h4>
+                                <p class="item-price"> <span>$69.00</span></p>                                                    
+                                <a href="#" class="btn btn-primary">Comprar Ahora</a>
+                        </div>					
+                    </div>
+                </div>		
+
+                <div class="col-sm-3">
+                    <div class="thumb-wrapper">
+                        <div class="img-box">
+                                <img src="img/008.jpg" class="img-responsive img-fluid" alt="">
+                            </div>
+                            <div class="thumb-content">
+                                <h4>Isla Bonita</h4>
+                                <p class="item-price"><span>$89.00</span></p>                                                   
+                                <a href="#" class="btn btn-primary">Comprar Ahora</a>
+                        </div>					
+                    </div>
+                </div>		
+
+                <div class="col-sm-3">
+                    <div class="thumb-wrapper">
+                        <div class="img-box">
+                                <img src="img/007.jpg" class="img-responsive img-fluid" alt="">
+                            </div>
+                            <div class="thumb-content">
+                                <h4>Skater girl</h4>
+                                <p class="item-price"><span>$99.00</span></p>                                                    
+                                <a href="#" class="btn btn-primary">Comprar Ahora</a>
+                        </div>				
+                    </div>
+                </div>		
+
+                <div class="col-sm-3">
+                    <div class="thumb-wrapper">
+                        <div class="img-box">
+                                <img src="img/005.jpg" class="img-responsive img-fluid" alt="">
+                            </div>
+                            <div class="thumb-content">
+                                <h4>Galaxy Love</h4>
+                                <p class="item-price"> <span>$59.00</span></p>                                                    
+                                <a href="#" class="btn btn-primary">Comprar Ahora</a>
+                        </div>					
+                    </div>
+                </div>		
             
+
+            </div>
+        </div>
+
+        <nav aria-label="Page navigation" class="paginas">
+            <ul class="pagination justify-content-center">
+              <li class="page-item disabled">
+                <a class="page-link" href="#" tabindex="-1">Previous</a>
+              </li>
+              <li class="page-item "><a class=" page-link" href="#">1</a></li>
+              <li class="page-item"><a class="page-link" href="#">2</a></li>
+              <li class="page-item"><a class="page-link" href="#">3</a></li>
+              <li class="page-item">
+                <a class="page-link" href="#">Next</a>
+              </li>
+            </ul>
+        </nav>
         </div>
     </div>
-    </section>
 
-    <!--FOOTER-->
-    <div class="header-pink text-center">
-        <p>Home</p>
-        <p>Tienda Completa</p>
-        <p>Formas de pago</p>
-        <p>Envíos</p>
-        <p>Preguntas Frecuentes</p>
-        <p>Nosotros</p>
-        <p>Registro</p>
-        <div class="page-header text-center ">
-                <img src="img/logo/Isanka.png" alt="Isanka Logo" >     
-        </div> 
-        <p>© 2019 Isanka Peruvian Bags</p>
-    </div>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/js/bootstrap.min.js" integrity="sha384-7aThvCh9TypR7fIc2HV4O/nFMVCBwyIUKL8XCtKE+8xgCgl/PQGuFsvShjr74PBp" crossorigin="anonymous"></script>    
+
+<!--FOOTER-->
+<div class="header-pink text-center">
+    <p>Home</p>
+    <p>Tienda Completa</p>
+    <p>Formas de pago</p>
+    <p>Envíos</p>
+    <p>Preguntas Frecuentes</p>
+    <p>Nosotros</p>
+    <p>Registro</p>
+    <div class="page-header text-center ">
+            <img src="img/logo/Isanka.png" alt="Isanka Logo" >     
+    </div> 
+    <p>© 2019 Isanka Peruvian Bags</p>
+</div>
+
+<script src="main.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/js/bootstrap.min.js" integrity="sha384-7aThvCh9TypR7fIc2HV4O/nFMVCBwyIUKL8XCtKE+8xgCgl/PQGuFsvShjr74PBp" crossorigin="anonymous"></script>    
 </body>
 </html>
