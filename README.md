@@ -1,5 +1,5 @@
 # Isanka
-<p align ="center">![Isanka](https://i.ibb.co/BPhStdK/logo.jpg)</p>
+![Isanka](https://i.ibb.co/BPhStdK/logo.jpg)
 
 Isanka es una empresa familiar (madre e hija), formada desde mayo de 2018. Sus diseños son únicos y los detalles que tiene cada bolso están hechos con la idea de abrazar la cultura peruana. Los accesorios de colores, textiles, cuero, telas y tejidos son todos 100% peruanos. Además, demostrando que es una empresa ecofriendly, Isanka rompe el mito que las bolsas de paja son solo para playa sino que quiere ir más allá entonces ha creado la línea de bolsos multiusos.
 
